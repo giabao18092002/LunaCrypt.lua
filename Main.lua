@@ -1142,15 +1142,4 @@ if game.PlaceId == SupportedGame["CENTAURA"] then --Centaura
             end
         end
     end
-    --rbxassetid://8598068650
-    local args = {
-        [1] = "Moved",
-        [2] = Vector3.new(6023.82763671875, 17.951801300048828, 1175.643798828125),
-        [3] = game:GetService("Workspace").K149967NisseIlene.M1911.K1911.Barrel,
-        [4] = {
-            ["Size"] = Vector3.new(1000000000, 1000000000, 1000000000)
-        }
-    }
-    
-    game:GetService("ReplicatedStorage"):WaitForChild("Container"):WaitForChild("FlashlightEvents"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
 end
